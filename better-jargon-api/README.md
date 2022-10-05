@@ -9,7 +9,7 @@ To start the service via the gradlew:
 To start the service via a jar:
 1. `cd better-jargon-api`  
 2. `./gradlew bootJar`
-3. `java -jar java -jar build/libs/better-jargon-0.0.1-SNAPSHOT.jar`
+3. `java -jar build/libs/better-jargon-0.0.1-SNAPSHOT.jar`
  
 # Define a word
 To define the word `TCP`, do:
