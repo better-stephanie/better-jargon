@@ -2,9 +2,14 @@
 A simple web service to look up word definitions
 
 # Getting Started
-To start the service:
+To start the service via the gradlew:
 1. `cd better-jargon-api`
 2. `./gradlew bootRun`
+
+To start the service via a jar:
+1. `cd better-jargon-api`  
+2. `./gradlew bootJar`
+3. `java -jar java -jar build/libs/better-jargon-0.0.1-SNAPSHOT.jar`
  
 # Define a word
 To define the word `TCP`, do:
