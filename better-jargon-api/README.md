@@ -3,8 +3,8 @@ A simple web service to look up word definitions
 
 # Getting Started
 To start the service:
-1. cd better-jargon-api
-2. ./gradlew bootRun
+1. `cd better-jargon-api`
+2. `./gradlew bootRun`
  
 # Define a word
 To define the word `TCP`, do:
