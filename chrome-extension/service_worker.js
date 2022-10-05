@@ -5,7 +5,7 @@ const contextMenuLongDefinitionID = 'contextMenuLongDefinitionID'
 
 chrome.contextMenus.create({
     id: contextMenuTitleID,
-    title: "OFAC - Office of Foreign Asset Control Office of Foreign Asset Control",
+    title: "BetterSlang Extension",
     enabled: true,
     contexts: ["selection"]
 })
