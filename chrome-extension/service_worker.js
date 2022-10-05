@@ -1,7 +1,4 @@
 const contextMenuTitleID = 'contextMenuTitleID'
-const contextMenuSeparatorID = 'contextMenuSeparatorID'
-const contextMenuShortDefinitionID = 'contextMenuShortDefinitionID'
-const contextMenuLongDefinitionID = 'contextMenuLongDefinitionID'
 
 chrome.contextMenus.create({
     id: contextMenuTitleID,
@@ -9,62 +6,38 @@ chrome.contextMenus.create({
     enabled: true,
     contexts: ["selection"]
 })
-// chrome.contextMenus.create({
-//     id: contextMenuSeparatorID,
-//     type: "separator",
-//     contexts: ["selection"]
-// })
-// chrome.contextMenus.create({
-//     id: contextMenuShortDefinitionID,
-//     enabled: false,
-//     title: 'Loading...',
-//     contexts: ["selection"]
-// })
-// chrome.contextMenus.create({
-//     id: contextMenuLongDefinitionID,
-//     enabled: false,
-//     title: ' ',
-//     contexts: ["selection"]
-// })
 
 let url
+let longDescription
 
 chrome.contextMenus.onClicked.addListener((info, tab) => {
-    chrome.tabs.create({ url: url });
+    // const c = confirm(longDescription) // not working
+    // if (c) {
+    // }
+    chrome.tabs.create({ url: url })
 })
 
 const loadDefinition = (acronym) => {
-    fetch('http://localhost:8080/api/v1/words/tcp') // acronym
+    fetch(`http://localhost:8080/api/v1/words/${acronym}`)
         .then((response) => response.json())
         .then((data) => {
             url = data.url
-            // chrome.contextMenus.update(contextMenuShortDefinitionID, {
-            //     'title': data.short_definition
-            // })
-            // chrome.contextMenus.update(contextMenuLongDefinitionID, {
-            //     'title': data.long_definition
-            // })
+            longDescription = data.short_definition
             chrome.contextMenus.update(contextMenuTitleID, {
-                'title': `${acronym} - ${data.short_definition}`,
+                'title': `${acronym} - ${data.short_definition}`
             })
-
+        }).catch(() => {
+            chrome.contextMenus.update(contextMenuTitleID, {
+                'title': `${acronym} - No found`
+            })
         })
 }
 
-chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
+chrome.runtime.onMessage.addListener((request) => {
     if (request.message == 'updateBetterSlangContextMenu' && request.selection.length > 0) {
         chrome.contextMenus.update(contextMenuTitleID, {
-            'title': `BetterDefine: "${request.selection}"`,
+            'title': `BetterDefine: "${request.selection}"`
         })
         loadDefinition(request.selection)
-        // chrome.contextMenus.update(contextMenuShortDefinitionID, {
-        //     'title': 'Loading...'
-        // })
-        // chrome.contextMenus.update(contextMenuLongDefinitionID, {
-        //     'title': ' '
-        // })
-        // loadDefinition(request.selection)
-    } else {
-        sendResponse({})
     }
 })
