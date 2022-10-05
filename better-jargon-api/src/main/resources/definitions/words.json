@@ -1,8 +1,824 @@
 [
   {
-    "word" : "TCP",
-    "short_definition" : "Tax-Coordinated Portfolio",
-    "long_definition" : "Our very own, fully automated version of an investment strategy known as asset location",
-    "url" : "https://www.betterment.com/resources/introducing-tax-coordinated-portfolio"
+    "word": "529",
+    "short_definition": null,
+    "long_definition": "A tax-advantaged investment account for higher education expenses",
+    "url": "https://www.investopedia.com/terms/1/529plan.asp"
+  },
+  {
+    "word": "401(a)30",
+    "short_definition": null,
+    "long_definition": "A plan-level contribution limit on deferrals in a calendar year. In 2020, that limit is $19,500 for people under age 50. The limit is $26,000 for people aged 50 and over. Plans are responsible for limiting this for their participants.",
+    "url": null
+  },
+  {
+    "word": "402(g)",
+    "short_definition": null,
+    "long_definition": "An individual contribution limit on deferrals for a calendar year. In 2020, that limit is $19,500 for people under age 50. The limit is $26,000 for people aged 50 and over. Each individual participant is responsible for monitoring this herself.",
+    "url": null
+  },
+  {
+    "word": "403(b) Plan",
+    "short_definition": null,
+    "long_definition": "Similar to a 401(k) but for employees of public schools, tax-exempt organizations and certain ministers",
+    "url": null
+  },
+  {
+    "word": "ACATS",
+    "short_definition": "Automated Customer Account Transfer Service",
+    "long_definition": "System that facilitates the transfer of securities from one trading account to another at a different brokerage firm or bank. Transfer of the actual security to preserve the underlying tax basis, not cash",
+    "url": "https://www.investopedia.com/terms/a/acat.asp"
+  },
+  {
+    "word": "Accredited investor",
+    "short_definition": null,
+    "long_definition": "An accredited investor is an individual or a business entity that is allowed to trade securities that may not be registered with financial authorities. They are entitled to this privileged access by satisfying at least one requirement regarding their income, net worth, asset size, governance status, or professional experience.",
+    "url": "https://www.investopedia.com/terms/a/accreditedinvestor.asp"
+  },
+  {
+    "word": "ACH",
+    "short_definition": "Automated Clearing House",
+    "long_definition": "A computer-based electronic network for processing transactions, usually domestic low value payments, between participating financial institutions",
+    "url": "https://www.investopedia.com/terms/a/ach.asp"
+  },
+  {
+    "word": "ACMP",
+    "short_definition": "Automated Custom Model Portfolios",
+    "long_definition": null,
+    "url": null
+  },
+  {
+    "word": "ACP",
+    "short_definition": "Actual Contribution Percentage test",
+    "long_definition": "The Actual Deferral Percentage (ADP) and Actual Contribution Percentage (ACP) tests are two tests that companies must conduct to ensure that their 401(k) plans don't unfairly benefit highly-paid employees at the expense of others.",
+    "url": "https://www.investopedia.com/terms/a/actual-deferral-percentage-actual-contribution-percentage.asp"
+  },
+  {
+    "word": "ADP (1)",
+    "short_definition": null,
+    "long_definition": "A payroll provider with whom B@W developed direct API connectivity in 2018",
+    "url": null
+  },
+  {
+    "word": "ADP (2)",
+    "short_definition": "Actual Deferral Percentage",
+    "long_definition": "The Actual Deferral Percentage (ADP) and Actual Contribution Percentage (ACP) tests are two tests that companies must conduct to ensure that their 401(k) plans don't unfairly benefit highly-paid employees at the expense of others.",
+    "url": "https://www.investopedia.com/terms/a/actual-deferral-percentage-actual-contribution-percentage.asp"
+  },
+  {
+    "word": "ADR",
+    "short_definition": "Average Deferral Rate",
+    "long_definition": "A crucial data point used in ADP testing",
+    "url": null
+  },
+  {
+    "word": "ADR",
+    "short_definition": "Architecture Decision Record",
+    "long_definition": "Document that captures an important architecture decision made along with its context and consequences.",
+    "url": null
+  },
+  {
+    "word": "Advised Client",
+    "short_definition": null,
+    "long_definition": "The client of a human advisor who uses Betterment ",
+    "url": null
+  },
+  {
+    "word": "Alts",
+    "short_definition": "Alternative investments",
+    "long_definition": "A financial asset outside of the conventional stocks, bonds, and cash categories. Some examples of Alts are: Private equity or venture capital, hedge funds, real property, commodities, and tangible assets.",
+    "url": "https://www.investopedia.com/terms/a/alternative_investment.asp"
+  },
+  {
+    "word": "APY",
+    "short_definition": "Annual Percentage Yield",
+    "long_definition": "The effective rate of return on an investment for one year taking into account the effect of compounding interest",
+    "url": "https://www.investopedia.com/terms/a/apy.asp"
+  },
+  {
+    "word": "AUM",
+    "short_definition": "Assets under management",
+    "long_definition": null,
+    "url": "https://www.investopedia.com/terms/a/aum.asp"
+  },
+  {
+    "word": "B2B",
+    "short_definition": "Business-to-business",
+    "long_definition": null,
+    "url": null
+  },
+  {
+    "word": "B4A",
+    "short_definition": "Betterment for Advisors ",
+    "long_definition": null,
+    "url": "https://www.betterment.com/advisors"
+  },
+  {
+    "word": "BaW",
+    "short_definition": "Betterment at Work",
+    "long_definition": "New name as of 2022 for what was previously called Betterment for Business (B4B)",
+    "url": null
+  },
+  {
+    "word": "B4B",
+    "short_definition": "Betterment for Business",
+    "long_definition": "Previous name for Betterment at Work (B@W)",
+    "url": "https://www.betterment.com/401k"
+  },
+  {
+    "word": "B4C or Retail",
+    "short_definition": "Betterment for Consumers",
+    "long_definition": null,
+    "url": null
+  },
+  {
+    "word": "BIY",
+    "short_definition": "Buy it yourself",
+    "long_definition": "B@W website experience allowing 401k prospects to purchase a 401k plan from our website",
+    "url": "https://401k.betterment.com/get_started"
+  },
+  {
+    "word": "BMT or BTMT ",
+    "short_definition": "Betterment",
+    "long_definition": null,
+    "url": null
+  },
+  {
+    "word": "BPS",
+    "short_definition": "Basis points",
+    "long_definition": "Refers to a common unit of measure for interest rates and other percentages in finance. Pronounced as “bips”, represents 0.01%. For example, the Betterment fee is 25 bps or 0.25%",
+    "url": "https://www.investopedia.com/terms/b/basispoint.asp"
+  },
+  {
+    "word": "Brochure",
+    "short_definition": null,
+    "long_definition": "Betterment.com. Brochure is the old name for our marketing website(s) which we now refer to as 'the website'",
+    "url": null
+  },
+  {
+    "word": "Clinic",
+    "short_definition": null,
+    "long_definition": "Customer servicing tool used by B@W Operations. Repository for plan details, plan configurations, and plan documents.",
+    "url": null
+  },
+  {
+    "word": "Constructive Receipt",
+    "short_definition": null,
+    "long_definition": "A payroll term of art, broadly meaning your paycheck (less all deferrals, taxes, and other withholdings).",
+    "url": "https://www.investopedia.com/terms/c/constructive-receipt.asp"
+  },
+  {
+    "word": "CMA",
+    "short_definition": "Capital Markets Assumption",
+    "long_definition": null,
+    "url": null
+  },
+  {
+    "word": "CPA/CAC",
+    "short_definition": "Cost Per Acquisition/Customer Acquisition Cost",
+    "long_definition": null,
+    "url": "https://www.investopedia.com/terms/c/costofacquisition.asp"
+  },
+  {
+    "word": "CRM",
+    "short_definition": "Customer Relationship Management",
+    "long_definition": "The combination of practices, strategies and technologies that companies use to manage and analyze customer interactions and data throughout the customer lifecycle. The goal is to improve customer service relationships and assist in customer retention and drive sales growth.",
+    "url": "https://www.investopedia.com/terms/c/customer_relation_management.asp"
+  },
+  {
+    "word": "CX",
+    "short_definition": "Customer Experience",
+    "long_definition": "Often in reference to our internal team of agents who support prospect and customer inquiries via phone and email",
+    "url": null
+  },
+  {
+    "word": "DC",
+    "short_definition": "Defined Contribution plan",
+    "long_definition": "A type of retirement plan where the employee or employer makes contributions directly (e.g., a 401(k) plan). This is different than a Defined Benefit plan where the employee is guaranteed a specific distribution value (e.g., pension)",
+    "url": "https://www.investopedia.com/terms/d/definedcontributionplan.asp"
+  },
+  {
+    "word": "Deferrals",
+    "short_definition": null,
+    "long_definition": "401(k) jargon for the contribution a participant makes, because the participant is deferring their receipt of the actual money by putting it into tax-advantaged savings.",
+    "url": null
+  },
+  {
+    "word": "DEIB",
+    "short_definition": "Diversity, Equity, Inclusion & Belonging",
+    "long_definition": null,
+    "url": null
+  },
+  {
+    "word": "Distributions",
+    "short_definition": null,
+    "long_definition": "Blanket term for any withdrawal from a 401(k). Can include: hardship, loans, residential loans, RMD’s, QDRO’s",
+    "url": null
+  },
+  {
+    "word": "Doctor/Dr",
+    "short_definition": null,
+    "long_definition": "Internal customer servicing tool used by CX & Operations",
+    "url": null
+  },
+  {
+    "word": "DOH",
+    "short_definition": "Date of hire",
+    "long_definition": "An important detail for determining plan eligibility and vesting schedule",
+    "url": null
+  },
+  {
+    "word": "DOL",
+    "short_definition": "Department of Labor",
+    "long_definition": "US agency that has advanced (and backtracked) on the fiduciary rule on retirement accounts",
+    "url": null
+  },
+  {
+    "word": "DOT",
+    "short_definition": "Date of termination",
+    "long_definition": null,
+    "url": null
+  },
+  {
+    "word": "EE",
+    "short_definition": "B@W shorthand for “employee”",
+    "long_definition": null,
+    "url": null
+  },
+  {
+    "word": "EIN",
+    "short_definition": "Employer identification number",
+    "long_definition": "A unique nine-digit number that is assigned to a business entity. Allows the IRS to easily identify businesses for tax reporting purposes.",
+    "url": "https://www.investopedia.com/terms/e/employer-identification-number.asp"
+  },
+  {
+    "word": "ER",
+    "short_definition": "B@W shorthand for “employer”",
+    "long_definition": null,
+    "url": null
+  },
+  {
+    "word": "ERISA",
+    "short_definition": "Employee Retirement Income Security Act",
+    "long_definition": "Law that governs retirement plans. There are several sections & titles to it. Basically, there are sets of rules put out to protect participants, benefits, and their rights in the plans. Dept of Labor (DOL) cares about rights to get benefits, making sure the benefits don’t disappear, and that employees have the ability to get those benefits. IRS stuff also falls under ERISA rules.",
+    "url": "https://www.investopedia.com/terms/e/erisa.asp"
+  },
+  {
+    "word": "ERSG",
+    "short_definition": "Employee Resource Strategy Group",
+    "long_definition": "Employee Resource Strategy Group",
+    "url": "https://betterconfluence.atlassian.net/wiki/spaces/PEOP/pages/2251882710/Employee+Resource+Strategy+Groups+ERSGs"
+  },
+  {
+    "word": "ESG",
+    "short_definition": "Environmental, Social, and Governance",
+    "long_definition": "ESG criteria are a set of standards for a company’s operations that socially conscious investors use to screen potential investments.",
+    "url": "https://www.investopedia.com/terms/e/environmental-social-and-governance-esg-criteria.asp"
+  },
+  {
+    "word": "ETF",
+    "short_definition": "Exchange traded fund",
+    "long_definition": "An ETF is a security that usually tracks an index, a commodity, or a basket of assets—much like an index fund—but trades like a stock on an exchange. Betterment uses ETFs in both our stock and bond portfolios because of the liquidity, diversification, and low management fees.",
+    "url": "https://www.investopedia.com/terms/e/etf.asp"
+  },
+  {
+    "word": "Fidelity bond",
+    "short_definition": null,
+    "long_definition": "Every plan covered by ERISA must be properly bonded to cover the interest in the plans. That means a specific insurance policy whose named insurer is the plan itself. The bond must cover for losses through fraudulent activity against the plan. It’s required to cover 10% of plan assets. The covered amount is included in the form 5500, which we prepare. We work with an outside vendor that helps us track the reported amounts",
+    "url": "https://www.investopedia.com/terms/f/fidelity-bond.asp"
+  },
+  {
+    "word": "Fiduciary",
+    "short_definition": null,
+    "long_definition": "A person or organization that is legally bound to act on behalf of another person, putting their clients' interests ahead of their own.",
+    "url": "https://www.investopedia.com/terms/f/fiduciary.asp"
+  },
+  {
+    "word": "FINRA",
+    "short_definition": "Financial Industry Regulatory Authority",
+    "long_definition": "A private American corporation that acts as a self-regulatory organization which regulates member brokerage firms and exchange markets.",
+    "url": "https://www.investopedia.com/terms/f/finra.asp"
+  },
+  {
+    "word": "Form 5500",
+    "short_definition": null,
+    "long_definition": "A document which needs to be submitted annually to both IRS and DOL. The DOL posts them publicly. It’s not technically a tax return; it’s an informational return. The information that needs to be present within them includes: identity of the plan sponsor (with their EIN and the plan number), characteristics of the plan (do they use auto-enrollment, do they have a match, is there profit-sharing and if so what type, is it a single employer plan or a union plan), how many people are eligible for the plan and how many are active, details of the assets in the plan (starting balance, etc). Larger plans (>100 employees) have to more significantly report details on fees. Larger plans also have to be audited. Participants of the plan must also receive a summary of the Form 5500. Smaller plans (under 100 employees) can file the Form 5500-SF, which has lower requirements for disclosure details. 85% of our plans file the Form 5500-SF.",
+    "url": null
+  },
+  {
+    "word": "Fractional Share",
+    "short_definition": null,
+    "long_definition": "A fractional share is a share of equity that is less than one full share. Your Betterment account holds fractional shares of each ETF to fully invest every dollar invested with us.",
+    "url": "https://www.investopedia.com/terms/f/fractionalshare.asp"
+  },
+  {
+    "word": "FT William",
+    "short_definition": null,
+    "long_definition": "3rd party vendor used by Betterment for generation and maintenance of certain types of plan details, including plan document generation and generation of compliance reports.",
+    "url": null
+  },
+  {
+    "word": "Hardship Distributions",
+    "short_definition": null,
+    "long_definition": "Participant has to provide certain kinds of documentation (medical bill, rent invoice, funeral expenses) showing the purpose and amount of payments, which the plan sponsor then signs off on. A hardship distribution isn’t eligible for repayment.",
+    "url": "https://www.investopedia.com/terms/h/hardship_withdrawal.asp"
+  },
+  {
+    "word": "HCE",
+    "short_definition": "Highly-compensated employee",
+    "long_definition": "A type of employee for compliance tested. To be considered an HCE, an employee needs to make either >$125k/yr or have an ownership stake of >5% (NB: if their ownership stake is exactly 5%, they will not be considered an HCE).",
+    "url": "https://www.investopedia.com/terms/h/highly-compensated-employee.asp"
+  },
+  {
+    "word": "HNW",
+    "short_definition": "High Net Worth",
+    "long_definition": "Prospects and customers with more than $2mm in investable assets",
+    "url": "https://www.investopedia.com/terms/h/hnwi.asp"
+  },
+  {
+    "word": "HRBP",
+    "short_definition": "HR Business Partner",
+    "long_definition": "Every department at Betterment has a designated HRBP. Their job is to support team members so that they feel empowered, valued, and engaged. They're also here as a confidant - someone you can go to if you need to talk to through things like acclimating to our culture, understanding our policies or company programs, and navigating sensitive subject matter. ",
+    "url": null
+  },
+  {
+    "word": "HSA",
+    "short_definition": "Health Savings Account",
+    "long_definition": "A type of savings account that lets you set aside pre-tax money to pay for qualified medical expenses. A product we offer in partnership with Optum",
+    "url": "https://www.investopedia.com/terms/h/hsa.asp"
+  },
+  {
+    "word": "IA",
+    "short_definition": "Investable assets",
+    "long_definition": "The amount of money someone could potentially invest",
+    "url": null
+  },
+  {
+    "word": "IDology",
+    "short_definition": null,
+    "long_definition": "One of our tools for identity verification and fraud prevention.",
+    "url": null
+  },
+  {
+    "word": "ITD",
+    "short_definition": "Inception to date",
+    "long_definition": "An important concept in account balances for our users",
+    "url": null
+  },
+  {
+    "word": "Key Employee",
+    "short_definition": null,
+    "long_definition": "An employee classification used in top-heavy testing. To be a key employee, you must meet one of the following criteria: have an ownership stake of >55%, have an ownership stake of >1% and an annual compensation of over $150,000, or be an officer with annual compensation of over $170,000.",
+    "url": "https://www.investopedia.com/terms/k/key-employee.asp"
+  },
+  {
+    "word": "KPIs",
+    "short_definition": "Key Performance Indicators",
+    "long_definition": "The critical indicators of progress toward an intended result. KPIs provide a focus for strategic and operational improvement, create an analytical basis for decision making and help focus attention on what matters most",
+    "url": "https://www.investopedia.com/terms/k/kpi.asp"
+  },
+  {
+    "word": "KYC",
+    "short_definition": "Know Your Customer/Client",
+    "long_definition": "A set of standards used within the investment and financial services industry to verify customers, their risk profiles, and financial profile",
+    "url": "https://www.investopedia.com/terms/k/knowyourclient.asp"
+  },
+  {
+    "word": "Lob",
+    "short_definition": null,
+    "long_definition": "A company we connect with to send checks and paper statements via USPS",
+    "url": null
+  },
+  {
+    "word": "LOB",
+    "short_definition": "Line of business",
+    "long_definition": null,
+    "url": null
+  },
+  {
+    "word": "LTCG",
+    "short_definition": "Long Term Capital Gain",
+    "long_definition": null,
+    "url": null
+  },
+  {
+    "word": "LTV",
+    "short_definition": "Lifetime Value",
+    "long_definition": "The total expected revenues less servicing costs expected from a customer, discounted back to a certain date",
+    "url": null
+  },
+  {
+    "word": "MM",
+    "short_definition": "Mass Market",
+    "long_definition": "Prospects and customers between $10k and $100k in investable assets",
+    "url": null
+  },
+  {
+    "word": "MoM",
+    "short_definition": "Month over Month",
+    "long_definition": null,
+    "url": null
+  },
+  {
+    "word": "MTC",
+    "short_definition": "Millennium Trust Company",
+    "long_definition": "A company who offer a qualified IRA (means it must have a cash or cash equivalent portion). We’re legally obligated to move a termed 401(k) to a qualified IRA owned & operated by another company",
+    "url": null
+  },
+  {
+    "word": "Mutual Fund",
+    "short_definition": null,
+    "long_definition": "A mutual fund is a professionally-managed investment vehicle that pools money and invests a basket of stocks, bonds and other securities. Mutual funds tend to have higher fees than ETFs and are not traded over an exchange.",
+    "url": "https://www.investopedia.com/terms/m/mutualfund.asp"
+  },
+  {
+    "word": "MWR",
+    "short_definition": "Money-weighted return",
+    "long_definition": "The money-weighted rate of return (MWRR) calculates the performance of an investment that accounts for the size and timing of deposits or withdrawals.",
+    "url": "https://www.investopedia.com/terms/m/money-weighted-return.asp"
+  },
+  {
+    "word": "Net deposits",
+    "short_definition": null,
+    "long_definition": "Net Deposits are the difference between Total Deposits and Total Withdrawals (TD-TW=ND)",
+    "url": null
+  },
+  {
+    "word": "Net New",
+    "short_definition": null,
+    "long_definition": "Brand new, not counting something that was there before",
+    "url": null
+  },
+  {
+    "word": "NHCE",
+    "short_definition": "Non highly-compensated employee",
+    "long_definition": "Used in ADP/ACP testing.",
+    "url": null
+  },
+  {
+    "word": "Northstar",
+    "short_definition": null,
+    "long_definition": "2 or more funded sub-accounts AND a recurring-deposit enabled (on any account)",
+    "url": null
+  },
+  {
+    "word": "NPS",
+    "short_definition": "Net promoter score",
+    "long_definition": "A widely used market research metric that typically takes the form of a single survey question asking respondents to rate the likelihood that they would recommend a company, product, or a service to a friend or colleague. ",
+    "url": null
+  },
+  {
+    "word": "OKRs",
+    "short_definition": "Objectives & Key Results",
+    "long_definition": "The highest level goals and metrics that measure progress against the goal",
+    "url": null
+  },
+  {
+    "word": "OT",
+    "short_definition": "Omni-transfer",
+    "long_definition": "The ability to internally transfer between almost all types of Betterment goals & accounts",
+    "url": null
+  },
+  {
+    "word": "Participant",
+    "short_definition": null,
+    "long_definition": "An employee participating in a 401K plan",
+    "url": null
+  },
+  {
+    "word": "PDE",
+    "short_definition": "Product, Design & Engineering",
+    "long_definition": null,
+    "url": null
+  },
+  {
+    "word": "PEO",
+    "short_definition": "Professional Employer Organization",
+    "long_definition": "Essentially, outsourced HR functions, which aid small to medium organizations with benefits, compliance, etc. Justworks is the most notable PEO Betterment works with (or plans to).",
+    "url": "https://www.investopedia.com/professional-employer-organization-definition-4766977"
+  },
+  {
+    "word": "PFOF",
+    "short_definition": "Payment for Order Flow",
+    "long_definition": "Getting paid by a third party to route trades to a certain party. Like getting a commission for using a specific clearing vendor",
+    "url": "https://www.investopedia.com/terms/p/paymentoforderflow.asp"
+  },
+  {
+    "word": "PII",
+    "short_definition": "Personal Identifiable Information",
+    "long_definition": "Any data that could potentially identify a specific individual.",
+    "url": "https://www.investopedia.com/terms/p/personally-identifiable-information-pii.asp"
+  },
+  {
+    "word": "Plan Sponsor",
+    "short_definition": null,
+    "long_definition": "A plan sponsor is a designated party within a company that manages the company’s healthcare or retirement plan, such as a 401(k), for the benefit of the organization's employees.",
+    "url": "https://www.investopedia.com/terms/p/plansponsor.asp"
+  },
+  {
+    "word": "Promissory Note",
+    "short_definition": null,
+    "long_definition": "A legal document laying out the terms of a loan or other financial obligation. Within a 401(k) context, these are generated for loans specifically",
+    "url": "https://www.investopedia.com/terms/p/promissorynote.asp"
+  },
+  {
+    "word": "Prospect",
+    "short_definition": null,
+    "long_definition": "Possible future retail customers. The population that might be interested in Betterment but hasn’t signed up yet",
+    "url": null
+  },
+  {
+    "word": "PRP",
+    "short_definition": "Personal Retirement Plan",
+    "long_definition": "A user flow after goal setup that focuses on questions about a user's retirement assumptions",
+    "url": null
+  },
+  {
+    "word": "QDIA",
+    "short_definition": "Qualified default investment alternative",
+    "long_definition": "A plan selected by your employer that you will be entered into if you don’t make an explicit selection. Participants must have choices (at least a stock option, bond option, and cash equivalent option), but they also need to have a default option. QDIA must be a blended option, where the goal is that the value won’t erode over time.",
+    "url": null
+  },
+  {
+    "word": "QDRO",
+    "short_definition": "Qualified Domestic Relations Order",
+    "long_definition": "A formal indication of change of marital status approved by a court. There are distributions available as a result of this status change.",
+    "url": "https://www.investopedia.com/terms/q/qdro.asp"
+  },
+  {
+    "word": "QNEC",
+    "short_definition": "Qualified non-elective contribution",
+    "long_definition": "A make-right contribution a plan has to make if it’s found to be top-heavy",
+    "url": null
+  },
+  {
+    "word": "RIA",
+    "short_definition": "Registered Investment Advisor",
+    "long_definition": "An individual financial advisor or a company that provides its clients with financial advice. RIAs have a fiduciary duty to their clients.",
+    "url": "https://www.investopedia.com/terms/r/ria.asp"
+  },
+  {
+    "word": "RMD",
+    "short_definition": "Required Minimum Distribution",
+    "long_definition": "The amount of money that must be withdrawn from an employer-sponsored retirement plan, traditional IRA, SEP, or SIMPLE individual retirement account (IRA) by owners and qualified retirement plan participants of retirement age.",
+    "url": "https://www.investopedia.com/terms/r/requiredminimumdistribution.asp"
+  },
+  {
+    "word": "Rollover",
+    "short_definition": null,
+    "long_definition": "The transfer of the holdings of one retirement plan to another",
+    "url": "https://www.investopedia.com/terms/r/rollover.asp\n\nhttps://www.betterment.com/resources/guide-betterment-rollovers"
+  },
+  {
+    "word": "Roth IRA",
+    "short_definition": "Individual retirement account",
+    "long_definition": "Contributions to Roth IRAs are not tax-deductible, but the withdrawals in retirement are tax-free. Ability to contribute to Roth IRAs are phased out at higher incomes. The 2021 contribution limit is $6,000 a year.",
+    "url": "https://www.investopedia.com/terms/r/rothira.asp"
+  },
+  {
+    "word": "RPA",
+    "short_definition": "Retirement Plan Advisor",
+    "long_definition": "A finacial advisor works with employers to establish and maintain a 401k plan.",
+    "url": null
+  },
+  {
+    "word": "Safe Harbor Plans",
+    "short_definition": null,
+    "long_definition": "A fixed contribution an employer agrees to put in. You can only add it before the beginning of the year and only amend it out before the beginning of the next year. An employer contribution that’s mandatory and therefore the IRS simplifies compliance testing. In general, it’s either 3% to all eligible employees or a match up to 100% of the first 4%. The advantage for an employer is that the compliance burden is lighter: still testing, but less, and they don’t have to do the top-heavy test. Smaller companies are more likely to select a safe harbor plan because of the compliance benefits.",
+    "url": "https://www.investopedia.com/terms/s/safeharbor.asp"
+  },
+  {
+    "word": "SAR",
+    "short_definition": "Summary annual report",
+    "long_definition": "A summary version of the 5500. This is required to be distributed to participants every year. Like other disclosures, today B@W plan sponsors are responsible for distributing this to their participants themselves.",
+    "url": null
+  },
+  {
+    "word": "Savers",
+    "short_definition": null,
+    "long_definition": "Prospects and customers with less than $10k in investable assets ",
+    "url": null
+  },
+  {
+    "word": "SDA",
+    "short_definition": "Self-Directed Allocation",
+    "long_definition": "A feature that gives customers more agency to make specific choices about their portfolio and allocation.",
+    "url": null
+  },
+  {
+    "word": "SEC",
+    "short_definition": "Securities and Exchange Commission",
+    "long_definition": "A large independent US agency that enforces the law against market manipulation.",
+    "url": "https://www.investopedia.com/terms/s/sec.asp"
+  },
+  {
+    "word": "SendSafely",
+    "short_definition": null,
+    "long_definition": "Platform used for secure transmission of sensitive materials (bank account info, PII)",
+    "url": null
+  },
+  {
+    "word": "SEP IRA",
+    "short_definition": "Simplified Employee Pension individual retirement account ",
+    "long_definition": "An individual retirement account for those who are self-employed or who are small business owners. For 2021, the contribution limit to SEP IRAs for those who are self-employed is the lesser of 20% of net income from self-employment, or $58,000.",
+    "url": "https://www.investopedia.com/terms/s/sep.asp"
+  },
+  {
+    "word": "Shrink",
+    "short_definition": null,
+    "long_definition": "Customer servicing tool used by B4A Operations",
+    "url": null
+  },
+  {
+    "word": "SMB",
+    "short_definition": "Small- and medium-sized businesses",
+    "long_definition": null,
+    "url": null
+  },
+  {
+    "word": "SME",
+    "short_definition": "Subject Matter Expert",
+    "long_definition": null,
+    "url": null
+  },
+  {
+    "word": "Socure",
+    "short_definition": null,
+    "long_definition": "One of our tools for verifying customer identity. Its predictive analytics platform applies artificial intelligence and machine learning techniques with trusted online/offline data intelligence from email, phone, address, IP, device, velocity, and the broader internet to verify identities in real time.",
+    "url": null
+  },
+  {
+    "word": "SOW",
+    "short_definition": "Share of Wallet",
+    "long_definition": "The percentage of a household’s investable assets an institution has under management.",
+    "url": "https://www.investopedia.com/terms/s/share-of-wallet.asp"
+  },
+  {
+    "word": "SPD",
+    "short_definition": "Summary Plan Document",
+    "long_definition": "ERISA requires participants and beneficiaries receive an SPD describing their rights, benefits, and responsibilities under the plan. It must be easy to understand and disclose fees, vesting, contact information, etc.",
+    "url": "https://www.investopedia.com/terms/s/summary-plan-description.asp"
+  },
+  {
+    "word": "SRI",
+    "short_definition": "Socially Responsible Investing",
+    "long_definition": "A portfolio that reduces exposure to companies that are deemed to have a negative social impact while increasing exposure to companies that are deemed to have a positive social impact",
+    "url": "https://www.investopedia.com/terms/s/sri.asp"
+  },
+  {
+    "word": "STCG",
+    "short_definition": "Short Term Capital Gain",
+    "long_definition": null,
+    "url": null
+  },
+  {
+    "word": "Stylecloset",
+    "short_definition": null,
+    "long_definition": "Our internal design system for our website, web apps, mobile apps, and emails",
+    "url": "http://style-closet.betterment.io/ (need to doorknock)"
+  },
+  {
+    "word": "TACO",
+    "short_definition": "Total Cost of Ownership score",
+    "long_definition": "Our metric to evaluate securities based on total cost to hold (expense ratio, index tracking difference) and total cost to trade (bid-ask spread, liquidity)",
+    "url": null
+  },
+  {
+    "word": "Tax-advantaged account",
+    "short_definition": null,
+    "long_definition": "Tax-advantaged accounts are generally either tax-deferred or tax-exempt. \n\nTax-deferred accounts, such as traditional IRAs and 401(k) plans, provide an upfront tax break. You may be able to deduct your contributions to these plans, which provides an immediate tax benefit. You pay taxes when you withdraw your money in retirement, which means the tax is deferred.\n\nTax-exempt accounts, including Roth IRAs and Roth 401(k)s, work differently. Contributions to these plans are made with after-tax dollars, so you don't receive the same upfront tax break that you do with traditional IRAs and 401(k)s. However, your investments grow tax-free and qualified withdrawals in retirement are tax-free as well. That's why these accounts are considered tax-exempt.",
+    "url": null
+  },
+  {
+    "word": "Taxable account",
+    "short_definition": null,
+    "long_definition": "A taxable investment account lets you buy and sell investments like stocks, bonds, exchange traded funds (ETFs) and index funds. ",
+    "url": null
+  },
+  {
+    "word": "TCP",
+    "short_definition": "Tax Coordinated Portfolio",
+    "long_definition": "A feature that automates a strategy called asset location. It starts by placing your assets that will be taxed highly in your IRAs, which have big tax breaks. Then, it places your lower-taxed assets in your taxable accounts. Only Betterment’s Retirement goal can use TCP.",
+    "url": "https://www.betterment.com/resources/introducing-tax-coordinated-portfolio"
+  },
+  {
+    "word": "TDF",
+    "short_definition": "Target Date Fund",
+    "long_definition": "A mutual fund that automatically resets the asset mix of stocks, bonds and cash equivalents in its portfolio according to a target date. Popular for retirement accounts",
+    "url": "https://www.investopedia.com/terms/t/target-date_fund.asp"
+  },
+  {
+    "word": "TIP",
+    "short_definition": "Tax impact preview",
+    "long_definition": "A screen in the Retail app that shares the estimated tax impact of withdrawing money or changing allocation",
+    "url": "https://www.betterment.com/resources/tax-impact-helps-you-get-the-full-picture"
+  },
+  {
+    "word": "TLH+",
+    "short_definition": "Tax Loss Harvesting",
+    "long_definition": "A feature that automatically sells a security that has experienced a loss. By realizing a loss investors are able to offset taxes on both gains and income. The sold security is replaced by a similar one, maintaining an optimal asset allocation and expected returns.",
+    "url": "https://www.betterment.com/resources/tax-loss-harvesting-methodology"
+  },
+  {
+    "word": "Top-Heavy",
+    "short_definition": null,
+    "long_definition": "An annual compliance test which looks at the plan balance at the end of the year relative to the key employee assets within that. If key employee assets are more than 60% of the total plan assets, then the plan is found to have failed the test and they must make corrective distributions either into the plan to the non-key employees (generally 3% of their comp) or out of the plan from key employees.",
+    "url": null
+  },
+  {
+    "word": "Top-Paid Group",
+    "short_definition": null,
+    "long_definition": "A Betterment-standard plan document provision which defines a limit on the number of HCE’s you can have by compensation status (owners will still be included). For B@W purposes, this is the top 20% of earners.",
+    "url": null
+  },
+  {
+    "word": "TPA",
+    "short_definition": "Third-party administrator",
+    "long_definition": "An organization that is hired by the 401k plan sponsor (your employer usually) to run many day-to-day aspects of your retirement plans (B@W handles these functions if the plan doesn’t have its own TPA). Some responsibilities of the TPA typically include compliance testing, generation and maintenance of the plan document, and overseeing the Form 5500’s.",
+    "url": "https://www.investopedia.com/terms/t/third-party-claims-administrator.asp"
+  },
+  {
+    "word": "Traditional IRA",
+    "short_definition": "Individual retirement account",
+    "long_definition": "Contributions to Traditional IRAs are tax-deductible, but withdrawals in retirement are taxable. The 2021 contribution limit is $6,000 a year",
+    "url": "https://www.investopedia.com/terms/t/traditionalira.asp"
+  },
+  {
+    "word": "TWR",
+    "short_definition": "Time-weighted return",
+    "long_definition": "A measure of the compound rate of growth in a portfolio. Often used to compare the returns of investment managers because it eliminates the distorting effects on growth rates created by inflows and outflows of money.",
+    "url": "https://www.investopedia.com/terms/t/time-weightedror.asp"
+  },
+  {
+    "word": "UX",
+    "short_definition": "User Experience",
+    "long_definition": null,
+    "url": "https://www.nngroup.com/articles/definition-user-experience/"
+  },
+  {
+    "word": "UTM",
+    "short_definition": "Urchin Tracking Module",
+    "long_definition": "Parameter to track online marketing campaign.",
+    "url": "https://en.wikipedia.org/wiki/UTM_parameters"
+  },
+  {
+    "word": "VOTE",
+    "short_definition": null,
+    "long_definition": "A first of its kind, sustainability-focused ETF, which will differentiate exclusively on how it plans to actively engage with the large cap US companies it holds via shareholder proposals and proxy voting",
+    "url": "https://www.betterment.com/help/vote-etf"
+  },
+  {
+    "word": "YoY",
+    "short_definition": "Year over Year",
+    "long_definition": "A frequently used financial comparison for comparing two or more measurable events on an annualized basis.",
+    "url": "https://www.investopedia.com/terms/y/year-over-year.asp"
+  },
+  {
+    "word": "YtD",
+    "short_definition": "Year to Date",
+    "long_definition": "Refers to the period of time beginning the first day of the current calendar year or fiscal year up to the current date.",
+    "url": "https://www.investopedia.com/terms/y/ytd.asp"
+  },
+  {
+    "word": "MLP",
+    "short_definition": "Minimum lovable product",
+    "long_definition": "The idea of lauching something customers will both use and love, as opposed to the idea of  \"minimum viable product\" (mvp) which is launching a more bare-bones version of the product first in order to get to market as fast as possible.",
+    "url": null
+  },
+  {
+    "word": "Spinwheel",
+    "short_definition": null,
+    "long_definition": "A company we partnered with to provide help managing your student debt to our B@W participants ",
+    "url": null
+  },
+  {
+    "word": "Performer",
+    "short_definition": null,
+    "long_definition": "A tool used by our CX team to log-in or \"perform in\" to a specific customer's Betterment account in order to help the customer address a problem they're having",
+    "url": null
+  },
+  {
+    "word": "MFA",
+    "short_definition": "Multi-factor authentication",
+    "long_definition": "Internally we use Duo at Betterment. After you login to Okta, it sends a push notification to your phone or could call you to verify that the login was made by the person that we trust.",
+    "url": null
+  },
+  {
+    "word": "SME",
+    "short_definition": "Subject Matter Expert",
+    "long_definition": null,
+    "url": null
+  },
+  {
+    "word": "AMA",
+    "short_definition": "Ask me anything",
+    "long_definition": null,
+    "url": null
+  },
+  {
+    "word": "SMBs",
+    "short_definition": "Small and mid-size businesses",
+    "long_definition": null,
+    "url": null
   }
 ]
