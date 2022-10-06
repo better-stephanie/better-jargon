@@ -1,0 +1,25 @@
+{
+  "name": "betterdefine",
+  "version": "0.0.1",
+  "description": "Slack bot code for BetterDefine",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^1.6.0",
+    "node-fetch": "2.6.7"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/bolt-app-template"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
