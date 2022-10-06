@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const { App, ExpressReceiver } = require('@slack/bolt');
 const fetch = require('node-fetch');
 
