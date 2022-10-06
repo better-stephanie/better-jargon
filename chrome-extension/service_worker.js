@@ -46,7 +46,7 @@ const loadDefinition = (acronym) => {
             })
         }).catch(() => {
             chrome.contextMenus.update(contextMenuTitleID, {
-                'title': 'No found'
+                'title': 'Not found'
             })
             chrome.contextMenus.update(contextMenuMoreInfoID, {
                 enabled: false,
