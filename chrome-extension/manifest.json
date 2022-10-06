@@ -1,8 +1,8 @@
 {
-    "name": "BetterSlang",
+    "name": "BetterJargon",
     "version": "1.0",
     "manifest_version": 3,
-    "description": "Pull acronyms description",
+    "description": "A simple chrome extension to look up word definitions",
     "permissions": [
         "contextMenus"
     ],

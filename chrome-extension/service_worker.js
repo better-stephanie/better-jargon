@@ -1,9 +1,22 @@
 const contextMenuTitleID = 'contextMenuTitleID'
+const contextMenuSeparatorID = 'contextMenuSeparatorID'
+const contextMenuMoreInfoID = 'contextMenuMoreInfoID'
 
 chrome.contextMenus.create({
     id: contextMenuTitleID,
     title: "BetterSlang Extension",
     enabled: true,
+    contexts: ["selection"]
+})
+chrome.contextMenus.create({
+    id: contextMenuSeparatorID,
+    type: "separator",
+    contexts: ["selection"]
+})
+chrome.contextMenus.create({
+    id: contextMenuMoreInfoID,
+    enabled: true,
+    title: 'More info',
     contexts: ["selection"]
 })
 
@@ -14,11 +27,13 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
     // const c = confirm(longDescription) // not working
     // if (c) {
     // }
-    chrome.tabs.create({ url: url })
+    if (info.menuItemId === contextMenuMoreInfoID) {
+        chrome.tabs.create({ url: url })
+    }
 })
 
 const loadDefinition = (acronym) => {
-    fetch(`http://localhost:8080/api/v1/words/${acronym}`)
+    fetch(`http://betterjargonapi-env.eba-rzb43vsp.us-east-1.elasticbeanstalk.com/api/v1/words/${acronym}`)
         .then((response) => response.json())
         .then((data) => {
             url = data.url
