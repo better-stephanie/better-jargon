@@ -1,6 +1,6 @@
-const contextMenuTitleID = 'contextMenuTitleID'
-const contextMenuSeparatorID = 'contextMenuSeparatorID'
-const contextMenuMoreInfoID = 'contextMenuMoreInfoID'
+const contextMenuTitleID = 'betterDefineContextMenuTitleID'
+const contextMenuSeparatorID = 'betterDefineContextMenuSeparatorID'
+const contextMenuMoreInfoID = 'betterDefineContextMenuMoreInfoID'
 
 chrome.contextMenus.create({
     id: contextMenuTitleID,
@@ -27,7 +27,7 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
     // const c = confirm(longDescription) // not working
     // if (c) {
     // }
-    if (info.menuItemId === contextMenuMoreInfoID) {
+    if (info.menuItemId === contextMenuMoreInfoID || info.menuItemId === contextMenuTitleID) {
         chrome.tabs.create({ url: url })
     }
 })
