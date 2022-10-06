@@ -37,13 +37,23 @@ public class WordController {
     }
 
     private Optional<Word> findWord(String word) {
+        if (word.isEmpty()) {
+            return Optional.empty();
+        }
+
         List<Word> results = wordRepository.findAllByWordIgnoreCase(word);
         if (results.isEmpty()) {
-            return Optional.empty();
-        } else {
-            LOG.info("Found '{}' results for {}", results.size(), word);
-            //TODO: Support multiple definitions
-            return Optional.of(results.get(0));
+            results = wordRepository.findAllByWordIgnoreCase(scrubQuery(word));
         }
+
+        LOG.info("Found '{}' results for {}", results.size(), word);
+        return results.size() > 0 ? Optional.of(results.get(0)) : Optional.empty();
+    }
+
+    private String scrubQuery(String word) {
+        if (word.endsWith("s")) {
+            return word.substring(0, word.length() -1);
+        }
+        return word;
     }
 }
