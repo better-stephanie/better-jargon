@@ -41,9 +41,15 @@ const loadDefinition = (acronym) => {
             chrome.contextMenus.update(contextMenuTitleID, {
                 'title': `${acronym} - ${data.short_definition}`
             })
+            chrome.contextMenus.update(contextMenuMoreInfoID, {
+                enabled: true,
+            })
         }).catch(() => {
             chrome.contextMenus.update(contextMenuTitleID, {
-                'title': `${acronym} - No found`
+                'title': 'No found'
+            })
+            chrome.contextMenus.update(contextMenuMoreInfoID, {
+                enabled: false,
             })
         })
 }
