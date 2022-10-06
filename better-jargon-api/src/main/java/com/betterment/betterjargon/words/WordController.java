@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.util.List;
 import java.util.Optional;
 
 @Controller
@@ -27,13 +28,22 @@ public class WordController {
     @GetMapping("/{word}")
     public ResponseEntity<Word> defineWord(@PathVariable String word) {
         LOG.info("Looking for '{}'", word);
-        Optional<Word> result = wordRepository.findByWordIgnoreCase(word);
-        if (result.isPresent()) {
-            LOG.info("Found '{}'", word);
-        } else {
+        Optional<Word> result = findWord(word);
+        if (result.isEmpty()) {
             LOG.info("Did not find '{}'", word);
         }
 
-        return ResponseEntity.of(wordRepository.findByWordIgnoreCase(word));
+        return ResponseEntity.of(result);
+    }
+
+    private Optional<Word> findWord(String word) {
+        List<Word> results = wordRepository.findAllByWordIgnoreCase(word);
+        if (results.isEmpty()) {
+            return Optional.empty();
+        } else {
+            LOG.info("Found '{}' results for {}", results.size(), word);
+            //TODO: Support multiple definitions
+            return Optional.of(results.get(0));
+        }
     }
 }

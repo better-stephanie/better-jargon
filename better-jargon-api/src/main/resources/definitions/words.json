@@ -54,13 +54,13 @@
     "url": "https://www.investopedia.com/terms/a/actual-deferral-percentage-actual-contribution-percentage.asp"
   },
   {
-    "word": "ADP (1)",
+    "word": "ADP",
     "short_definition": null,
     "long_definition": "A payroll provider with whom B@W developed direct API connectivity in 2018",
     "url": null
   },
   {
-    "word": "ADP (2)",
+    "word": "ADP",
     "short_definition": "Actual Deferral Percentage",
     "long_definition": "The Actual Deferral Percentage (ADP) and Actual Contribution Percentage (ACP) tests are two tests that companies must conduct to ensure that their 401(k) plans don't unfairly benefit highly-paid employees at the expense of others.",
     "url": "https://www.investopedia.com/terms/a/actual-deferral-percentage-actual-contribution-percentage.asp"
@@ -198,7 +198,7 @@
     "url": "https://www.investopedia.com/terms/d/definedcontributionplan.asp"
   },
   {
-    "word": "Deferrals",
+    "word": "Deferral",
     "short_definition": null,
     "long_definition": "401(k) jargon for the contribution a participant makes, because the participant is deferring their receipt of the actual money by putting it into tax-advantaged savings.",
     "url": null
@@ -318,7 +318,7 @@
     "url": null
   },
   {
-    "word": "Hardship Distributions",
+    "word": "Hardship Distribution",
     "short_definition": null,
     "long_definition": "Participant has to provide certain kinds of documentation (medical bill, rent invoice, funeral expenses) showing the purpose and amount of payments, which the plan sponsor then signs off on. A hardship distribution isn’t eligible for repayment.",
     "url": "https://www.investopedia.com/terms/h/hardship_withdrawal.asp"
@@ -372,7 +372,7 @@
     "url": "https://www.investopedia.com/terms/k/key-employee.asp"
   },
   {
-    "word": "KPIs",
+    "word": "KPI",
     "short_definition": "Key Performance Indicators",
     "long_definition": "The critical indicators of progress toward an intended result. KPIs provide a focus for strategic and operational improvement, create an analytical basis for decision making and help focus attention on what matters most",
     "url": "https://www.investopedia.com/terms/k/kpi.asp"
@@ -438,7 +438,7 @@
     "url": "https://www.investopedia.com/terms/m/money-weighted-return.asp"
   },
   {
-    "word": "Net deposits",
+    "word": "Net deposit",
     "short_definition": null,
     "long_definition": "Net Deposits are the difference between Total Deposits and Total Withdrawals (TD-TW=ND)",
     "url": null
@@ -468,7 +468,7 @@
     "url": null
   },
   {
-    "word": "OKRs",
+    "word": "OKR",
     "short_definition": "Objectives & Key Results",
     "long_definition": "The highest level goals and metrics that measure progress against the goal",
     "url": null
@@ -567,7 +567,7 @@
     "word": "Rollover",
     "short_definition": null,
     "long_definition": "The transfer of the holdings of one retirement plan to another",
-    "url": "https://www.investopedia.com/terms/r/rollover.asp\n\nhttps://www.betterment.com/resources/guide-betterment-rollovers"
+    "url": "https://www.investopedia.com/terms/r/rollover.asp\r\n\r\nhttps://www.betterment.com/resources/guide-betterment-rollovers"
   },
   {
     "word": "Roth IRA",
@@ -582,7 +582,7 @@
     "url": null
   },
   {
-    "word": "Safe Harbor Plans",
+    "word": "Safe Harbor Plan",
     "short_definition": null,
     "long_definition": "A fixed contribution an employer agrees to put in. You can only add it before the beginning of the year and only amend it out before the beginning of the next year. An employer contribution that’s mandatory and therefore the IRS simplifies compliance testing. In general, it’s either 3% to all eligible employees or a match up to 100% of the first 4%. The advantage for an employer is that the compliance burden is lighter: still testing, but less, and they don’t have to do the top-heavy test. Smaller companies are more likely to select a safe harbor plan because of the compliance benefits.",
     "url": "https://www.investopedia.com/terms/s/safeharbor.asp"
@@ -686,7 +686,7 @@
   {
     "word": "Tax-advantaged account",
     "short_definition": null,
-    "long_definition": "Tax-advantaged accounts are generally either tax-deferred or tax-exempt. \n\nTax-deferred accounts, such as traditional IRAs and 401(k) plans, provide an upfront tax break. You may be able to deduct your contributions to these plans, which provides an immediate tax benefit. You pay taxes when you withdraw your money in retirement, which means the tax is deferred.\n\nTax-exempt accounts, including Roth IRAs and Roth 401(k)s, work differently. Contributions to these plans are made with after-tax dollars, so you don't receive the same upfront tax break that you do with traditional IRAs and 401(k)s. However, your investments grow tax-free and qualified withdrawals in retirement are tax-free as well. That's why these accounts are considered tax-exempt.",
+    "long_definition": "Tax-advantaged accounts are generally either tax-deferred or tax-exempt. \r\n\r\nTax-deferred accounts, such as traditional IRAs and 401(k) plans, provide an upfront tax break. You may be able to deduct your contributions to these plans, which provides an immediate tax benefit. You pay taxes when you withdraw your money in retirement, which means the tax is deferred.\r\n\r\nTax-exempt accounts, including Roth IRAs and Roth 401(k)s, work differently. Contributions to these plans are made with after-tax dollars, so you don't receive the same upfront tax break that you do with traditional IRAs and 401(k)s. However, your investments grow tax-free and qualified withdrawals in retirement are tax-free as well. That's why these accounts are considered tax-exempt.",
     "url": null
   },
   {
@@ -804,19 +804,13 @@
     "url": null
   },
   {
-    "word": "SME",
-    "short_definition": "Subject Matter Expert",
-    "long_definition": null,
-    "url": null
-  },
-  {
     "word": "AMA",
     "short_definition": "Ask me anything",
     "long_definition": null,
     "url": null
   },
   {
-    "word": "SMBs",
+    "word": "SMB",
     "short_definition": "Small and mid-size businesses",
     "long_definition": null,
     "url": null
