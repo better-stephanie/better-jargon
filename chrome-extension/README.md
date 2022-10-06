@@ -14,3 +14,8 @@ To install the extension:
 2. Right click on selection to open contextual menu
 3. Hover over `BetterJargon` to open definition
 4. Click `More info` to learn more
+
+# Example
+1. Navigate to https://www.betterment.com/resources/how-robo-advisors-guide-your-investing
+2. Look for `ETF` or `SRI` or `AUM`
+3. Select and then open contextual menu
