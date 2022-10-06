@@ -17,12 +17,57 @@ const app = new App({
 const re = new RegExp('.*');
 
 app.message(re, async ({ context, say }) => {
+  const block = {
+    blocks: [],
+  };
+
+  const error = {
+    type: "section",
+    text: {
+      type: "mrkdwn",
+      text: `Definition not found :sadnerd:, <https://www.investopedia.com/search?q=${context.matches[0]}|try Investopedia> `,
+    },
+  };
+
   try {
-    let response = await fetch(`http://betterjargonapi-env.eba-rzb43vsp.us-east-1.elasticbeanstalk.com/api/v1/words/${context.matches[0]}`);
+    let response = await fetch(
+      `http://betterjargonapi-env.eba-rzb43vsp.us-east-1.elasticbeanstalk.com/api/v1/words/${context.matches[0]}`
+    );
     response = await response.json();
-    await say(response.short_definition);
+
+    const short_definition = {
+      type: "section",
+      text: {
+        type: "plain_text",
+        text: `${response.short_definition}`,
+      },
+    };
+    const long_definition = {
+      type: "section",
+      text: {
+        type: "plain_text",
+        text: `${response.long_definition}`,
+      },
+    };
+    const url = {
+      type: "section",
+      text: {
+        type: "mrkdwn",
+        text: `<${response.url}|More Info>`,
+      },
+    };
+
+    (await response.short_definition)
+      ? block.blocks.push(short_definition)
+      : null;
+    (await response.long_definition)
+      ? block.blocks.push(long_definition)
+      : null;
+    (await response.url) ? block.blocks.push(url) : null;
+    await say(block);
   } catch (e) {
-    await say('Not found');
+    block.blocks.push(error);
+    await say(block);
   }
 });
 
